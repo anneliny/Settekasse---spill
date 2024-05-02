@@ -1,0 +1,138 @@
+body{
+    user-select: none;
+    background-color: rgb(38, 50, 41);
+}
+.mainViewTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-top: 4rem;
+}
+.mainViewImgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.mainViewImg{
+    display: flex;
+    width: 30rem;
+    border: solid 0.2rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+.mainViewImg:hover{
+    opacity: 0.5;
+}
+.mainViewBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4rem;
+}
+.mainViewBtn{
+    background-color: rgb(22,24,24);    
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 0.1rem black;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.treasureContainerBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.treasureBtn {
+    background-color: rgb(22,24,24);    
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 0.1rem black;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+.treasureContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+.treasureBox{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    width: 45rem;
+    height: 26.8rem;    
+    margin-top: 4rem;
+    padding: 0.5rem;
+    background-image: url("settekasse.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.imgBoxTreasure{
+    display:inline-table;
+    width: 7rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.placeViewBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.placeViewBtn{
+    background-color: rgb(22,24,24);    
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 0.1rem black;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.placeViewContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.placeViewBox{
+    border: solid 0.1rem;
+    width: 20rem;
+    height: 20rem;
+    font-size: x-large;
+}
+.imgBox{
+    width:20rem;
+}
+.centerElements{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
